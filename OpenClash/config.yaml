@@ -59,7 +59,11 @@ proxy-groups:
 # 规则匹配
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
 rules:
+#临时添加特定网址按以下格式填写
   - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
+#临时添加特定IP按以下格式填写
+  - SRC-IP-CIDR,192.168.1.189/32,直连
+#以下是根据规则集添加的规则(规则集仓库 https://github.com/MetaCubeX/meta-rules-dat/tree/meta),icon图标仓库：https://github.com/Vbaethon/HOMOMIX
   - RULE-SET,private_domain,直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 默认代理
