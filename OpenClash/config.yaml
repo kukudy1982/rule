@@ -4,7 +4,7 @@ proxy-providers:
   #以下是机场名字
   XSUS:
   #下面是修改机场订阅
-    url: "http://106.75.141.168:3389/api/v1/client/subscribe?token=75077927a99423457b1d51939ca497b8&flag=clash"
+    url: "http://23.145.248.164:3389/api/v1/client/subscribe?token=06fab228635b85d52df0438eb92b9a46&flag=clash"
     type: http
     interval: 86400
     health-check:
